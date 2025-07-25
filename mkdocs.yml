@@ -6,6 +6,8 @@ site_url: https://andikatjacobdennis.github.io/SQL_Guide/
 theme:
   name: material
   #custom_dir: overrides # Use a custom directory for advanced customizations (optional, but good for future)
+  edit_uri: edit/main/docs/
+  strict: true
   features:
     - navigation.instant
     - navigation.tracking
@@ -24,6 +26,7 @@ theme:
     - content.action.edit
     - content.layout.wide
     - content.action.view # Added to allow viewing source on GitHub
+    - content.code.copy
   palette:
     # Light theme (default)
     - scheme: default
@@ -53,8 +56,11 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/andikatjacobdennis/SQL_Guide/ # Changed to the SQL Server repo link for direct relevance
     - icon: fontawesome/brands/linkedin # Added LinkedIn for professional presence
-      link: https://www.linkedin.com/in/andikatjacobdennis/ # REPLACE with your LinkedIn profile URL!
+      link: https://www.linkedin.com/in/andikatjacobdennis/
   generator: false # Hide the "Built with MkDocs" footer for a cleaner look
+  metadata:
+    description: "Comprehensive SQL Server guide."
+    keywords: "SQL, database, tutorial"
 
 # --- Plugin Configuration ---
 plugins:
