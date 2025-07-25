@@ -1,7 +1,7 @@
-# 🚀 SQL: Your Comprehensive Learning Guide for SQL
+# SQL: Your Comprehensive Learning Guide for SQL
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andikatjacobdennis/SQL?style=flat-square&color=blue)
-![Docs Build Status](https://img.shields.io/badge/docs-deployed-brightgreen?style=flat-square) 
+![Docs Build Status](https://img.shields.io/badge/docs-deployed-brightgreen?style=flat-square)
 
 Welcome to the **SQL** repository! This resource is meticulously designed to be your go-to guide for learning and mastering **SQL (Structured Query Language)**, with a practical focus on its implementation and powerful features within **Microsoft SQL Server**.
 
@@ -9,20 +9,20 @@ Whether you're a curious beginner taking your first steps into database manageme
 
 ---
 
-## 🌐 Access the Learning Materials
+## Access the Learning Materials
 
 You have three convenient ways to explore this comprehensive SQL documentation:
 
-### 1. 🚀 View the Live Documentation (Recommended for Instant Access)
+### 1. View the Live Documentation (Recommended for Instant Access)
 
 The easiest and most interactive way to access the guide is through the deployed website:
 
-➡️ **[Visit the SQL Documentation Site Here!](https://andikatjacobdennis.github.io/SQL/)**
+**[Visit the SQL Documentation Site Here!](https://andikatjacobdennis.github.io/SQL/)**
 *(This link assumes you'll deploy to GitHub Pages at this standard URL. Please update if your deployment URL is different.)*
 
 ---
 
-### 2. 📚 Read Markdown Files Directly (Quick Glance)
+### 2. Read Markdown Files Directly (Quick Glance)
 
 For a straightforward look at the raw content, you can browse the source Markdown files on GitHub:
 
@@ -31,7 +31,7 @@ For a straightforward look at the raw content, you can browse the source Markdow
 
 ---
 
-### 3. 🖥️ Build the Interactive Documentation Website Locally (Recommended for Contributors/Developers)
+### 3. Build the Interactive Documentation Website Locally (Recommended for Contributors/Developers)
 
 For the richest learning and development experience, including powerful search functionality, a clean interface, and real-time updates as you make changes, we highly recommend building the documentation website locally using **MkDocs** with the beautiful **Material for MkDocs** theme.
 
@@ -60,7 +60,7 @@ Before you begin, ensure you have the following essential tools installed on you
         git --version
         ```
 
-#### **⚙️ Setup Instructions**
+#### **Setup Instructions**
 
 Follow these simple steps to get your local documentation website up and running:
 
@@ -103,7 +103,7 @@ Follow these simple steps to get your local documentation website up and running
 
 ---
 
-## ⚠️ Troubleshooting Common Issues
+## Troubleshooting Common Issues
 
 | Issue                                      | Solution                                                                                                                                                                                                                                                                                                                                                                                          |
 | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -115,7 +115,7 @@ Follow these simple steps to get your local documentation website up and running
 
 ---
 
-## 🚀 Advanced Usage
+## Advanced Usage
 
 ### Build Static Site for Deployment
 
