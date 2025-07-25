@@ -1,14 +1,14 @@
-# 001 Getting Started with SQL Server
+# 001. Getting Started with SQL Server
 
 This section helps you get started with SQL Server quickly and easily through these five introductory tutorials:
 
-## 1. What is SQL Server
+## 1. [What is SQL Server](001.001.What_is_SQL_Server.md)
 
 Learn about the basics and key features of SQL Server.
 
-## 2. Install SQL Server 2022 Developer Edition
+## 2. [Install SQL Server 2022 Developer Edition](001.002.Install_SQL_Server.md)
 
-Step-by-step instructions to install SQL Server 2017 Developer Edition on your local computer or server.
+Step-by-step instructions to install SQL Server 2022 Developer Edition on your local computer or server.
 
 ## 3. Connect to SQL Server
 
