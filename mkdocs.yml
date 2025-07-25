@@ -1,6 +1,7 @@
 site_name: SQL Guide
 use_directory_urls: true  # optional, default is true
 site_url: https://andikatjacobdennis.github.io/SQL_Guide/
+repo_url: https://github.com/andikatjacobdennis/SQL_Guide/
 
 # --- Theme Configuration ---
 theme:
