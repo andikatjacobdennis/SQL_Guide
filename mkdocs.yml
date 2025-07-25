@@ -1,0 +1,104 @@
+site_name: "Master Microsoft SQL Server 2022"
+site_url: https://github.com/andikatjacobdennis/MasterMicrosoftSQLServer2022/ # Uncommented and set for better SEO and direct access
+
+# --- Theme Configuration ---
+theme:
+  name: material
+  #custom_dir: overrides # Use a custom directory for advanced customizations (optional, but good for future)
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - search.suggest
+    - search.highlight # Added for better search experience
+    - search.share
+    - toc.follow
+    - toc.expand
+    - navigation.top
+    - navigation.footer
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+    - content.layout.wide
+    - content.action.view # Added to allow viewing source on GitHub
+  palette:
+    # Light theme (default)
+    - scheme: default
+      primary: light blue # Softer blue for a more modern feel
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Dark theme
+    - scheme: slate
+      primary: blue grey # A sophisticated dark primary
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Fira Code # Excellent choice for code readability
+
+# --- Global Extras ---
+extra:
+  search:
+    language: en
+    pipeline: stemmer, stopword
+    separator: '[\s\-\.]' # Added period as a separator for better search results
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/andikatjacobdennis/MasterMicrosoftSQLServer2022/ # Changed to the SQL Server repo link for direct relevance
+    - icon: fontawesome/brands/linkedin # Added LinkedIn for professional presence
+      link: https://www.linkedin.com/in/your-profile-url # REPLACE with your LinkedIn profile URL!
+  generator: false # Hide the "Built with MkDocs" footer for a cleaner look
+
+# --- Plugin Configuration ---
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-\.]' # Consistent with extra.search separator
+  - mermaid2
+  - tags
+  - minify:
+      minify_html: true
+  - git-revision-date-localized # Displays last update date, adds professionalism
+  # - blog # Consider adding if you plan to have a blog section
+  # - glightbox # For beautiful image lightboxes (if you have many images)
+
+# --- Markdown Extensions ---
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      use_pygments: true
+      # You can experiment with different styles for code blocks:
+      # 'monokai', 'dracula', 'solarized-light', 'solarized-dark', 'native'
+      pygments_style: native # 'native' offers a good balance across themes
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - admonition # Crucial for visually distinct notes, tips, warnings
+  - pymdownx.emoji: # For emojis, enhancing readability and fun
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list # Allows adding classes/IDs to markdown elements
+  - md_in_html # Allows Markdown within HTML blocks
+
+# --- Assets ---
+extra_css:
+  - stylesheets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css # Latest Font Awesome CDN for more icons
+
+# extra_javascript:
+#   - javascripts/extra.js # Uncomment if you have custom JS
+
+# --- Copyright ---
+copyright: "&copy; 2025 Andikatjacobdennis. All rights reserved." # More professional copyright format
