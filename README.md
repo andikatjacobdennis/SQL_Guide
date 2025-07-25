@@ -1,7 +1,9 @@
 # 🚀 SQL: Your Comprehensive Learning Guide for SQL
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andikatjacobdennis/SQL?style=flat-square&color=blue)
-![Docs Build Status](https://img.shields.io/badge/docs-deployed-brightgreen?style=flat-square) Welcome to the **SQL** repository! This resource is meticulously designed to be your go-to guide for learning and mastering **SQL (Structured Query Language)**, with a practical focus on its implementation and powerful features within **Microsoft SQL Server**.
+![Docs Build Status](https://img.shields.io/badge/docs-deployed-brightgreen?style=flat-square) 
+
+Welcome to the **SQL** repository! This resource is meticulously designed to be your go-to guide for learning and mastering **SQL (Structured Query Language)**, with a practical focus on its implementation and powerful features within **Microsoft SQL Server**.
 
 Whether you're a curious beginner taking your first steps into database management, a student grasping core SQL concepts, or a seasoned professional aiming to deepen your SQL Server expertise and Transact-SQL (T-SQL) proficiency, this repository offers structured, interactive, and practical learning materials to accelerate your journey.
 
