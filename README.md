@@ -18,7 +18,6 @@ You have three convenient ways to explore this comprehensive SQL documentation:
 The easiest and most interactive way to access the guide is through the deployed website:
 
 **[Visit the SQL Documentation Site Here!](https://andikatjacobdennis.github.io/SQL_Guide/docs/)**
-*(This link assumes you'll deploy to GitHub Pages at this standard URL. Please update if your deployment URL is different.)*
 
 ---
 
