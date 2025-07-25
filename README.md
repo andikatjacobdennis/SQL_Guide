@@ -1,4 +1,4 @@
-# SQL: Your Comprehensive Learning Guide for SQL
+# SQL Guide
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andikatjacobdennis/SQL?style=flat-square&color=blue)
 ![Docs Build Status](https://img.shields.io/badge/docs-deployed-brightgreen?style=flat-square)
