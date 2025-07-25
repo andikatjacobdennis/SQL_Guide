@@ -122,3 +122,22 @@ To generate a fully static version of your documentation, ready for hosting on a
 
 ```bash
 mkdocs build --clean
+
+---
+
+## Contributing
+
+Contributions are welcome! If you have improvements, bug fixes, or new examples to add:
+
+1. Fork the repo.
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes.
+4. Open a pull request.
+
+Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
