@@ -93,6 +93,9 @@ markdown_extensions:
   - attr_list # Allows adding classes/IDs to markdown elements
   - md_in_html # Allows Markdown within HTML blocks
 
+nav:
+  - Home: index.md
+
 # --- Assets ---
 extra_css:
   - stylesheets/extra.css
