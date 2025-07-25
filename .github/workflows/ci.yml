@@ -29,6 +29,7 @@ jobs:
       - name: Cache pip dependencies
         uses: actions/cache@v4
         with:
+          fertch-depth: 0
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
