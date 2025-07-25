@@ -1,13 +1,13 @@
 site_name: SQL Guide
 use_directory_urls: true  # optional, default is true
 site_url: https://andikatjacobdennis.github.io/SQL_Guide/
-repo_url: https://github.com/andikatjacobdennis/SQL_Guide/
+repo_url: https://github.com/andikatjacobdennis/SQL_Guide/  # ← Required for edit links to work
+edit_uri: edit/main/docs/  # ← Required for edit links to work
 
 # --- Theme Configuration ---
 theme:
   name: material
   #custom_dir: overrides # Use a custom directory for advanced customizations (optional, but good for future)
-  edit_uri: edit/main/docs/
   strict: true
   features:
     - navigation.instant
