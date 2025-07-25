@@ -95,6 +95,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Getting Started with SQL Server: 001_Getting_Started_with_SQL_Server/index.md
+      
 
 # --- Assets ---
 extra_css:
