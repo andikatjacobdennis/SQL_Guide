@@ -1,0 +1,111 @@
+@startuml SQL-Server-Sample-Database
+!define TABLE(tbl_name) class tbl_name as "tbl_name" #LightBlue
+!define COLUMN(col_name) col_name
+hide methods
+hide stereotypes
+
+package "sales" #ff000055 {
+  TABLE(stores) {
+    *store_id: INT
+    --
+    store_name: VARCHAR(255)
+    phone: VARCHAR(25)
+    email: VARCHAR(255)
+    street: VARCHAR(255)
+    city: VARCHAR(255)
+    state: VARCHAR(10)
+    zip_code: VARCHAR(5)
+  }
+
+  TABLE(staffs) {
+    *staff_id: INT
+    --
+    first_name: VARCHAR(50)
+    last_name: VARCHAR(50)
+    email: VARCHAR(255)
+    phone: VARCHAR(25)
+    active: TINYINT
+    store_id: INT
+    manager_id: INT
+  }
+
+  TABLE(customers) {
+    *customer_id: INT
+    --
+    first_name: VARCHAR(255)
+    last_name: VARCHAR(255)
+    phone: VARCHAR(25)
+    email: VARCHAR(255)
+    street: VARCHAR(255)
+    city: VARCHAR(50)
+    state: VARCHAR(25)
+    zip_code: VARCHAR(5)
+  }
+
+  TABLE(orders) {
+    *order_id: INT
+    --
+    customer_id: INT
+    order_status: TINYINT
+    order_date: DATE
+    required_date: DATE
+    shipped_date: DATE
+    store_id: INT
+    staff_id: INT
+  }
+
+  TABLE(order_items) {
+    *order_id: INT
+    *item_id: INT
+    --
+    product_id: INT
+    quantity: INT
+    list_price: DECIMAL(10, 2)
+    discount: DECIMAL(4, 2)
+  }
+}
+
+package "production" #0000ff55 {
+  TABLE(categories) {
+    *category_id: INT
+    --
+    category_name: VARCHAR(255)
+  }
+
+  TABLE(brands) {
+    *brand_id: INT
+    --
+    brand_name: VARCHAR(255)
+  }
+
+  TABLE(products) {
+    *product_id: INT
+    --
+    product_name: VARCHAR(255)
+    brand_id: INT
+    category_id: INT
+    model_year: SMALLINT
+    list_price: DECIMAL(10, 2)
+  }
+
+  TABLE(stocks) {
+    *store_id: INT
+    *product_id: INT
+    --
+    quantity: INT
+  }
+}
+
+sales.stores ||--o{ sales.staffs : has staff
+sales.staffs ||--o| sales.staffs : managed by >
+sales.customers ||--o{ sales.orders : places
+sales.stores ||--o{ sales.orders : taken at
+sales.staffs ||--o{ sales.orders : processed by
+sales.orders ||--o{ sales.order_items : contains
+production.products ||--o{ sales.order_items : details
+production.categories ||--o{ production.products : belongs to category
+production.brands ||--o{ production.products : belongs to brand
+sales.stores ||--o{ production.stocks : has stock
+production.products ||--o{ production.stocks : stock of
+
+@enduml
