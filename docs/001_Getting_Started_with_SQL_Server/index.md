@@ -6,7 +6,7 @@ This section helps you get started with SQL Server quickly and easily through th
 
 Learn about the basics and key features of SQL Server.
 
-## 2. Install SQL Server 2017 Developer Edition
+## 2. Install SQL Server 2022 Developer Edition
 
 Step-by-step instructions to install SQL Server 2017 Developer Edition on your local computer or server.
 
