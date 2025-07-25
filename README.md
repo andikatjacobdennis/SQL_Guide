@@ -1,23 +1,21 @@
-# 🚀 Master T-SQL: Your Comprehensive Learning Guide
+# 🚀 SQL: Your Comprehensive Learning Guide for SQL
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/andikatjacobdennis/SQL?style=flat-square&color=blue)
-![Docs Build Status](https://img.shields.io/badge/docs-deployed-brightgreen?style=flat-square)
+![Docs Build Status](https://img.shields.io/badge/docs-deployed-brightgreen?style=flat-square) Welcome to the **SQL** repository! This resource is meticulously designed to be your go-to guide for learning and mastering **SQL (Structured Query Language)**, with a practical focus on its implementation and powerful features within **Microsoft SQL Server**.
 
-Welcome to the **Master T-SQL** repository! This resource is meticulously designed to be your go-to guide for learning and mastering **Transact-SQL (T-SQL)**, Microsoft's powerful database language foundational to SQL Server.
-
-Whether you're a curious beginner taking your first steps into databases or a seasoned professional aiming to deepen your SQL Server expertise, this repository offers structured, interactive, and practical learning materials to accelerate your journey.
+Whether you're a curious beginner taking your first steps into database management, a student grasping core SQL concepts, or a seasoned professional aiming to deepen your SQL Server expertise and Transact-SQL (T-SQL) proficiency, this repository offers structured, interactive, and practical learning materials to accelerate your journey.
 
 ---
 
 ## 🌐 Access the Learning Materials
 
-You have three convenient ways to explore this comprehensive T-SQL documentation:
+You have three convenient ways to explore this comprehensive SQL documentation:
 
 ### 1. 🚀 View the Live Documentation (Recommended for Instant Access)
 
 The easiest and most interactive way to access the guide is through the deployed website:
 
-➡️ **[Visit the Master T-SQL Documentation Site Here!](https://andikatjacobdennis.github.io/SQL/)**
+➡️ **[Visit the SQL Documentation Site Here!](https://andikatjacobdennis.github.io/SQL/)**
 *(This link assumes you'll deploy to GitHub Pages at this standard URL. Please update if your deployment URL is different.)*
 
 ---
@@ -105,13 +103,13 @@ Follow these simple steps to get your local documentation website up and running
 
 ## ⚠️ Troubleshooting Common Issues
 
-| Issue                                    | Solution                                                                                                                                                                                                                                                                                                                                                                                          |
-| :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `mkdocs` command not found               | Ensure Python is correctly added to your system's PATH during installation. If already installed, try running `python -m pip install --upgrade mkdocs` to install or update MkDocs globally.                                                                                                                                                                                                    |
+| Issue                                      | Solution                                                                                                                                                                                                                                                                                                                                                                                          |
+| :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `mkdocs` command not found                 | Ensure Python is correctly added to your system's PATH during installation. If already installed, try running `python -m pip install --upgrade mkdocs` to install or update MkDocs globally.                                                                                                                                                                                                    |
 | Plugin errors (e.g., `PluginName not installed`) | You likely need to install the specific plugin. For instance, if `git-revision-date-localized` gives an error, run: `pip install mkdocs-git-revision-date-localized-plugin`. **The recommended approach is to use `pip install -r requirements.txt` after creating that file.** If issues persist, try a forced reinstall: `pip install --force-reinstall <plugin-package-name>`. |
-| Python not recognized                    | Reinstall Python, making sure to explicitly check "Add Python to PATH" during setup. Alternatively, manually add the Python executable directory to your system's PATH environment variable.                                                                                                                                                                                                        |
-| Broken internal links or build errors    | Run `mkdocs build --strict`. This command will perform a stricter build, highlighting any broken internal links or other configuration issues with detailed error messages, helping you pinpoint and fix them.                                                                                                                                                                                 |
-| Missing `requirements.txt`               | If this file is absent, generate it by running `pip freeze > requirements.txt` after confirming all necessary `pip` packages are installed and working. Commit this file to your repository so others can easily replicate your environment.                                                                                                                                                       |
+| Python not recognized                      | Reinstall Python, making sure to explicitly check "Add Python to PATH" during setup. Alternatively, manually add the Python executable directory to your system's PATH environment variable.                                                                                                                                                                                                        |
+| Broken internal links or build errors      | Run `mkdocs build --strict`. This command will perform a stricter build, highlighting any broken internal links or other configuration issues with detailed error messages, helping you pinpoint and fix them.                                                                                                                                                                                 |
+| Missing `requirements.txt`                 | If this file is absent, generate it by running `pip freeze > requirements.txt` after confirming all necessary `pip` packages are installed and working. Commit this file to your repository so others can easily replicate your environment.                                                                                                                                                       |
 
 ---
 
