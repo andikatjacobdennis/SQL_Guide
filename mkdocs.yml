@@ -78,12 +78,12 @@ plugins:
 # --- Markdown Extensions ---
 markdown_extensions:
   - pymdownx.highlight:
-      linenums: true
-      anchor_linenums: true
+      linenums: true                # Enable line numbers
+      anchor_linenums: true         # Allow linking to specific lines
+      linenums_style: table         # Optional: clean 2-column layout
       use_pygments: true
-      # You can experiment with different styles for code blocks:
-      # 'monokai', 'dracula', 'solarized-light', 'solarized-dark', 'native'
-      pygments_style: native # 'native' offers a good balance across themes
+      pygments_lang_class: true     # Adds language class for better styling
+      pygments_style: monokai       # Other good options: 'dracula', 'native', 'solarized-dark'
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets
