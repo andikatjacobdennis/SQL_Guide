@@ -51,7 +51,7 @@ extra:
     separator: '[\s\-\.]' # Added period as a separator for better search results
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/andikatjacobdennis/SQL/ # Changed to the SQL Server repo link for direct relevance
+      link: https://github.com/andikatjacobdennis/SQL_Guide/ # Changed to the SQL Server repo link for direct relevance
     - icon: fontawesome/brands/linkedin # Added LinkedIn for professional presence
       link: https://www.linkedin.com/in/andikatjacobdennis/ # REPLACE with your LinkedIn profile URL!
   generator: false # Hide the "Built with MkDocs" footer for a cleaner look
