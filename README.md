@@ -35,7 +35,7 @@ For a straightforward look at the raw content, you can browse the source Markdow
 
 For the richest learning and development experience, including powerful search functionality, a clean interface, and real-time updates as you make changes, we highly recommend building the documentation website locally using **MkDocs** with the beautiful **Material for MkDocs** theme.
 
-#### **🛠️ Prerequisites**
+#### **Prerequisites**
 
 Before you begin, ensure you have the following essential tools installed on your system:
 
@@ -80,7 +80,7 @@ Follow these simple steps to get your local documentation website up and running
     pip install -r requirements.txt
     ```
 
-    **💡 Why `requirements.txt`?** This file ensures that all required project dependencies (including `mkdocs`, `mkdocs-material`, `mkdocs-minify-plugin`, `mkdocs-mermaid2-plugin`, `mkdocs-git-revision-date-localized-plugin`, and any others listed in your `mkdocs.yml`) are installed correctly and in compatible versions, providing a consistent setup for everyone.
+    **Why `requirements.txt`?** This file ensures that all required project dependencies (including `mkdocs`, `mkdocs-material`, `mkdocs-minify-plugin`, `mkdocs-mermaid2-plugin`, `mkdocs-git-revision-date-localized-plugin`, and any others listed in your `mkdocs.yml`) are installed correctly and in compatible versions, providing a consistent setup for everyone.
 
     * **To create `requirements.txt` (if you don't have one yet):**
         After you've successfully installed all plugins and confirmed your `mkdocs.yml` works locally, run this command from your project root:
